@@ -16,7 +16,7 @@ class DB {
               throw new Error("Неправильная структура файла конфигурации, отсутствует ключ Mysql");
             }
             this.config = {
-                host: parsedConfig.Mysql.IP,
+                host: parsedConfig.Mysql.host,
                 port: parsedConfig.Mysql.port,
                 user: parsedConfig.Mysql.User,
                 password: parsedConfig.Mysql.Password,
