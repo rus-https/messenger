@@ -1,0 +1,14 @@
+{
+    "port": 3003,
+    "ssl": {
+      "privateKeyPath": "../ssl/private.key",
+      "certificatePath": "../ssl/certificate.crt"
+    },
+    "Mysql":{
+      "host": "localhost",
+      "port": 3306,
+      "User": "test",
+      "Password": "pass",
+      "DataBase": "messenger"
+  }
+}
